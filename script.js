@@ -15,9 +15,9 @@ function replacer(arr){
     document.querySelector("#list").innerHTML=html;
 
 }
-beluga=["beluga.jpg","Beluga",["I love Fish","Follow me on instagram ","Meow !"]]
+beluga=["beluga.jpg","Beluga",["I love Fish","Follow me on instagram ","Change Number !"]]
 mr_hacker=["hacker.jpg","Mr Hacker",["Is RSA encryption secure?","Connect to reverse shell","Hack beluga id and read his notes"]]
-admin=["admin.jpg","Admin",["Password:flag{sankalpa}","Merry Christmas","Buy Fish from market"]]
+admin=["admin.jpg","Admin",["Password:flag{BAC_!S_cO0l}","Merry Christmas","Buy Fish from market"]]
 unknown=["black.jpg","no user found",["","",""]]
 
 let cookie_value=atob(document.cookie.split(";")[1].replace("user=",""));
